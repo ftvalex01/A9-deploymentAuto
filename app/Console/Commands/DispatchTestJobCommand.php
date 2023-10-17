@@ -27,7 +27,6 @@ class DispatchTestJobCommand extends Command
     public function handle()
     {
         dispatch(new TestJob());
-
         $this->info('Test job dispatched.');
     }
 }
